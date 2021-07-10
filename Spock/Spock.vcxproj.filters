@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Spock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="g72x.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="g711.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="g726_16.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="g726_24.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="g726_32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="g726_40.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SpockGUI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Spock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="g72x.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="private.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sdrplay_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sdrplay_api_callback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sdrplay_api_control.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sdrplay_api_dev.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sdrplay_api_rsp1a.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sdrplay_api_rsp2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sdrplay_api_rspDuo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sdrplay_api_rspDx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sdrplay_api_rx_channel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sdrplay_api_tuner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="SpockGUI.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
