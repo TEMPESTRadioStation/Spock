@@ -1,6 +1,6 @@
 # Spock
 
-Spock is a demonstartion software. It demonstrates how audio may be received from a host computer running a software
+Spock is a demonstration software. It demonstrates how audio may be received from a host computer running a software
 call Scotty. Scotty transmit audio from a host computer by controlling GPU memory data transfers. Each memory transfer
 generates electromagnetic waves. By controlling the memory data tranfers, the software transmitts the data from the computer.
 
